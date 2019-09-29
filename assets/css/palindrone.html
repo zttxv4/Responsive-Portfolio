@@ -1,0 +1,14 @@
+<script>
+
+function isPalindrone(myWord) {
+
+    for(var i = 0; i < myWord.length; i++) {
+        if(myWord[i] !== myWord[myWord.length - (i + 1)]) {
+            return false
+        }
+    }
+
+    return true;
+}
+
+</script>
