@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: rgb(228, 227, 227)
 }
 
 * {
@@ -35,14 +35,14 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #310a9c;
 }
 
 h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #dddddd;
+  border-bottom: 3px solid #310a9c;
 }
 
 h2,
@@ -58,8 +58,8 @@ h3 {
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
-  color: #ffffff;
-  background: #ffffff;
+  color: #310a9c;
+  background: #310a9c;
   border-bottom: 2px solid #cccccc;
 }
 
@@ -74,7 +74,7 @@ h3 {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #310a9c;
 }
 
 nav {
@@ -106,7 +106,7 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #310a9c;
   height: 50px;
 }
 
@@ -122,12 +122,15 @@ h3, h2 {
 #main-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
+  border-color: #310a9c
+  
 }
+
 
 .main-section {
   float: left;
   width: 100%;
-  max-width: 960px;
+  max-width: 960 px;
   padding: 30px;
   margin: 0 0 40px;
   background: #ffffff;
@@ -164,7 +167,7 @@ h3, h2 {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
+  background: #310a9c;
   border-bottom: 0;
 }
 
@@ -212,8 +215,12 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #310a9c;
   border: 0 none;
+}
+
+#phone, #email {
+  font-style: italic;
 }
 
 @media screen and (max-width: 980px) {
